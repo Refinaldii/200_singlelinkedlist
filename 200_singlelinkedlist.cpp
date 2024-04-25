@@ -34,6 +34,8 @@ void addNode(){
     }
     Node* previous = START;
     Node* current = START;
+
+    while ((current != NULL) && (nim >= current->noMhs)){}
 }
 int main()
 {
