@@ -21,6 +21,7 @@ void addNode(){
     nodeBaru->noMhs = nim;
     nodeBaru->name = nama;
 
+    if (START == NULL || nim <= START-> noMhs){}
 }
 int main()
 {
